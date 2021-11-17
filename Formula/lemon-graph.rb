@@ -6,7 +6,7 @@ class LemonGraph < Formula
     url "http://lemon.cs.elte.hu/pub/sources/lemon-1.3.1.tar.gz"
     version "1.3.1"
 
-    depends_on "cmake"
+    depends_on "cmake" => :build
 
     def install
         system "cmake", "-B", "build", "-DCMAKE_INSTALL_PREFIX=#{prefix}", "."
