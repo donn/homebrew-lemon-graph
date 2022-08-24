@@ -5,6 +5,7 @@ class LemonGraph < Formula
     head "https://github.com/tpet/lemon"
     url "http://lemon.cs.elte.hu/pub/sources/lemon-1.3.1.tar.gz"
     version "1.3.1"
+    license "BSL-1.0"
 
     depends_on "cmake" => :build
 
