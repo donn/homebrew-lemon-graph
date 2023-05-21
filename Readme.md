@@ -1,3 +1,7 @@
+The OpenROAD team is now maintaining a fork, please use that instead ► https://github.com/The-OpenROAD-Project/homebrew-lemon-graph
+
+---
+
 # LEMON Homebrew Tap
 This is a homebrew tap for the Library for Efficient Modeling and Optimization in Networks, which isn't part of homebrew-core (there's another lemon which is a parser generator).
 
